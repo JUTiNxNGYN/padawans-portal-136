@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Body from './components/Body'
 import Whiteboard from './components/Whiteboard'
 import Register from './components/forms/Register'
+import Users from './components/Users'
 
 export default function App() {
 
@@ -15,7 +16,8 @@ export default function App() {
       <Body>
         {/* <Posts /> */}
         {/* <Whiteboard /> */}
-        <Register />
+        <Users />
+        {/* <Register /> */}
       </Body>
     </Container>
   )
