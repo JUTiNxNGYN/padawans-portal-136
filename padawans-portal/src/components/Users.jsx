@@ -5,7 +5,6 @@ export default function Users() {
 
     const [ users, setUser ] = useState([])
     
-    
     useEffect(()=>{
         (async () => {
             const res = await fetch('http://127.0.0.1:5000/user')
